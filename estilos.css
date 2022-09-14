@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+*::selection {
+    background-color:greenyellow;
+    color: black
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
+
+.copy {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 12px;
+}
+
+.logo {
+    display: flex;
+    padding: 5px;
+}
+
+body {
+    background-image: url("./assets/fondo\ 1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+.nos {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+.parrafo {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+.nav-item a{
+    list-style-type: none;
+    text-decoration: none;
+    padding: 8px;
+    color: white;
+}
+
+.nav-item a:hover {
+    text-decoration: overline;
+    color: greenyellow;
+    transition: 0.5s;
+}
+
+.nav-item a:active {
+    color: gray;
+}
+
+.form-control:focus {
+    background: rgb(230, 230, 230);
+    color: black;
+}
+
+.accordion-button:focus {
+    background: rgb(230, 230, 230);
+    color: black;
+}
+
+.nav-item a:not(.menu-link) {
+    color: lime;
+}
+
+.foto {
+    box-shadow: 3px 3px 6px rgba(0,0,0,0,2);
+    cursor: default;
+    overflow: hidden;
+    transition: all 400ms ease;
+}
+.foto:hover {
+    box-shadow: 6px 6px 12px rgba(0,0,0,0,4);
+    transform: scale(1.05);
+    transition: 0.5s;
+}
